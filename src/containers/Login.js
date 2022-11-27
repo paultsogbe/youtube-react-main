@@ -25,7 +25,7 @@ const Login = ({ setProfile, profile, clientId }) => {
       <br />
       <br />
       {profile ? (
-        <div>
+        <div className="login-details">
           <img src={profile.imageUrl} alt="user" />
           <h3>User Logged in</h3>
           <p>Name: {profile.name}</p>
