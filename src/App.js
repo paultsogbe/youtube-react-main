@@ -45,7 +45,6 @@ function App() {
       const response = await axios.get(
         `https://youtube-premium-express.herokuapp.com/videos`
       );
-
       setData(response.data);
       console.log(response.data);
       setIsLoading(false);
