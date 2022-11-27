@@ -42,11 +42,10 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      // const response = await axios.get(`http://localhost:4000/videos`);
       const response = await axios.get(
         `https://youtube-premium-express.herokuapp.com/videos`
       );
-      //youtube-premium-express.herokuapp.com/
+
       setData(response.data);
       console.log(response.data);
       setIsLoading(false);

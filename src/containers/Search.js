@@ -11,9 +11,9 @@ const Search = ({ results, profile }) => {
         {results ? (
           <div className="home-card-wrapper">
             {results.map((element, index) => {
-              console.log(results);
-              console.log(element);
-              console.log(element.id);
+              // console.log(results);
+              // console.log(element);
+              // console.log(element.id);
               return (
                 <div onClick={() => navigate(`/video/${element.id}`)}>
                   <Card

@@ -35,7 +35,6 @@ const Header = ({ profile, searchResult }) => {
               Log out
             </button>
             <img classname="profile-image" src={profile.imageUrl} alt="user" />
-            {/* <p className="profile-name">{profile.enName}</p> */}
           </div>
         ) : (
           <button
