@@ -1,1 +1,329 @@
-/* Other rules */
+/* HEADER ******************** */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0;
+    background-color: black;
+  }
+  
+  .header-logo {
+    height: 60px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .button-logout {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .button-login {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .logged-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    height: 60px;
+  }
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-input {
+    width: 590px;
+    padding-left: 40px;
+    background-color: #f5f6f7;
+    border-radius: 5px;
+    height: 37px;
+    border: none;
+    outline: none;
+    font-family: "Maison Neue";
+    font-size: 20px;
+  }
+  
+  .search-input::placeholder {
+    color: #7b7c7e;
+    font-size: 20px;
+  }
+  
+  .search-input-icon {
+    position: absolute;
+    left: 7px;
+    top: 12px;
+    color: #bbbbbb;
+    font-size: 20px;
+  }
+  /* LOGIN ******************** */
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .header > input {
+    width: 200%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    padding-left: 5px;
+    background-color: #f8efef;
+  }
+  
+  /* HOME ******************** */
+  
+  .card-container {
+    padding: 0 6px 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .top-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .description {
+    font-size: 16px;
+  }
+  
+  .duration {
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 60px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .blured {
+    filter: blur(5px);
+  }
+  
+  .not-blured {
+    filter: none;
+  }
+  
+  .engagement {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  
+  .views {
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+  }
+  
+  .reactions {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+  }
+  
+  .likes {
+    margin-right: 15px;
+  }
+  
+  .likes > span {
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+  }
+  
+  .thumpsup-input-icon {
+    color: rgb(97, 95, 95);
+    margin-right: 5px;
+  }
+  
+  .thumpsdown-input-icon {
+    color: rgb(97, 95, 95);
+    margin-right: 5px;
+  }
+  
+  .dislikes > span {
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+  }
+  
+  .home-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  /* SEARCH ******************** */
+  
+  /* VIDEO ******************** */
+  .video-container {
+    padding: 0 6px 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .video-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .video-card > video {
+    width: 1500px;
+    height: 750px;
+  }
+  
+  .video-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .video-top-card {
+    display: flex;
+    justify-content: space-between;
+    width: 1330px;
+  }
+  
+  .video-main-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .video-description {
+    font-size: 24px;
+  }
+  
+  .video-duration {
+    position: absolute;
+    margin-left: 1260px;
+    margin-top: 100px;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .video-engagement {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 1360px;
+  }
+  
+  .video-views {
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .video-reactions {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    font-size: 18px;
+  }
+  
+  .video-likes {
+    margin-right: 15px;
+  }
+  
+  .video-likes > span {
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+  }
+  
+  .video-thumpsup-input-icon {
+    color: rgb(97, 95, 95);
+    margin-right: 5px;
+  }
+  
+  .video-thumpsdown-input-icon {
+    color: rgb(97, 95, 95);
+    margin-right: 5px;
+  }
+  
+  .video-dislikes > span {
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+  }
+  
+  .video-comments {
+    display: flex;
+    flex-direction: column;
+    width: 1360px;
+    margin-top: 50px;
+  }
+  
+  .comment-id {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user {
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 12px;
+  }
+  
