@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ".reset.css";
+import "./index.css";
 import "./App.css";
 import { gapi } from "gapi-script";
 import axios from "axios";
@@ -37,6 +37,8 @@ function App() {
     gapi.load("client:auth2", initClient);
     console.log(profile);
   });
+
+  // LIST OF VIDEOS
 
   useEffect(() => {
     const fetchData = async () => {
