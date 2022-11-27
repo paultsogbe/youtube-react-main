@@ -23,7 +23,7 @@ The interface has several pages:
 Clone this repository :
 
 ```
-git clone
+git clone https://github.com/paultsogbe/youtube-react-main.git
 ```
 
 Install packages :
@@ -37,4 +37,5 @@ or
 ```
 yarn
 ```
+
 # youtube-react-main
