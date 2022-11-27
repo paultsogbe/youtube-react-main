@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ".reset.css";
 import "./App.css";
 import { gapi } from "gapi-script";
 import axios from "axios";
